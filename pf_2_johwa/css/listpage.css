@@ -1,0 +1,78 @@
+@charset "utf-8";
+
+.content{width:1430px;height: 100%;margin:0 auto;}
+
+.on1{color:#dd768e}
+.bg{background-image: url(../images/flowerpage.jpg);width:1430px;height: 240px;}
+.nav{height: 100px;line-height:100px;font-size:16px;border-bottom:1px solid #b5b4b4;margin-bottom:105px;}
+.nav li{float: left;margin-right:150px;}
+.nav li:hover a, .on{color:#40683c;}
+
+.list{height: 1200px}
+.list li{width: 300px;height: 500px;border:1px solid #7F7F80;float:left;margin:0 73px 60px 0;background-color:#fff}
+.list li a{display:block;width:300px;height:500px}
+.list li img{width:250px;height: 281px;margin:30px 0 15px 25px}
+.list li p{margin-left: 30px;border-bottom:1px solid #7F7F80;width:250px;line-height:25px;padding-bottom:20px}
+.list li p:last-child{border-bottom:none;margin-top:20px;}
+.list li:nth-child(4),.list li:nth-child(8){margin-right:0}
+
+.button{width: 200px;height: 60px;line-height: 60px;margin:0 auto;background-color: #A4B583;margin-bottom:90px;text-align: center;font-size:16px;font-weight:bold;border-radius:10px}
+.button a{color:#fff}
+
+footer{clear:both;}
+
+/* 1280px ~ 961px */
+@media screen and (min-width:415px) and (max-width:1024px) {
+	header{width: 100%;height: 125px;position: relative;}
+	header h1{margin:0;position: absolute;top:40%;left:2%;width:143px;height: 35px;background-size:cover}
+	header .lnb{position: absolute;top:7%;right:1%}
+	header .lnb li{font-size:10px}
+	header .lnb li i{font-size:12px;}
+	header .gnb{position: absolute;top:45%;left:35%;font-size:12px;width:350px}
+	header .gnb li{margin-right:50px}
+	.content{width:100%;height:2700px;position: relative;}
+	.bg{width:100%;background-size: cover;height:140px}
+	.nav{height:70px;line-height:70px;margin-bottom:70px}
+	.nav li{padding-left:40px;margin-right:20px;font-size:14px;}
+	.list{width: 677px;margin:0 auto;}
+	.list li:nth-child(2), .list li:nth-child(6){margin-right:0}
+	.button{position: absolute;bottom:0%;left:40%}
+
+	footer{width:100%;height:200px;position:relative;}
+	.foot{width:100%;height:200px}
+	footer article{position: absolute;left:5%;top:35%;width:143px;height: 35px;background-size:cover}
+	footer p{position: absolute;right:3%;top:25%;font-size:12px}
+	footer .pp{position: absolute;left:25%;}
+}
+
+@media screen and (max-width:414px) {
+	body, a {font-size:12px}
+	header{width:100%;height: 95px}
+	header h1{width:110px;height:27px;background-size:cover;margin:25px auto}
+	header h1 >a {width:110px;height:26px;}
+	header 
+	.gnb{width:300px;margin:35px auto;}
+	.gnb li{margin-right:50px;}
+	.lnb{top:2%;right: 2%}
+	.lnb li:nth-child(1), .lnb li:nth-child(2){display:none}
+	.lnb li i{font-size:12px;}
+
+	.content{width:100%;height:1450px;position: relative;}
+	.bg{width:100%;background-size: cover;height:90px;margin-top:20px}
+	.nav{height:50px;line-height:50px;margin-bottom:70px;margin-bottom:40px;}
+	.nav li{padding-left:20px;margin-right:15px;font-size:13px;}
+	
+
+	.list{width:350px;margin:auto;}
+	.list li{width:150px;height:250px;margin:10px 10px;border:1px solid #aaa}
+	.list li a img{margin:10px;width:130px;height: 145px}
+	.list li p{margin-left: 10px;border-top:1px solid #aaa;width:130px;line-height:25px;padding:10px 0;border-bottom:none}
+	.list li p:last-child{display:none}
+	.button{position: absolute;bottom:5%;left:20%;margin-bottom:0}
+
+	footer{width:100%;height:310px;position:relative;}
+	.foot{width:100%;height:200px}
+	footer article{position: absolute;left:5%;top:35%;width:110px;height:27px;background-size:cover}
+	footer p{position: absolute;left:5%;top:80%;font-size:11px}
+	footer .pp{position: absolute;right:0%;top:0;}
+}	

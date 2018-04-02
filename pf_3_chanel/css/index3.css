@@ -1,0 +1,47 @@
+@charset "utf-8";
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+@import url('https://fonts.googleapis.com/css?family=Heebo:400,700,800,900');
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic');
+
+#wrapper{ -webkit-overflow-scrolling: touch;}
+
+body{font-family:'Noto Sans KR',  'Nanum Gothic' ,'san-serif';font-size:20px;margin:0;transition: all 500ms; will-change: background;}
+.main, .one, .two, .three{width:100%;height: 1379px;}
+.main{background-image:url(../images/bg.jpg);position: relative;background-size: cover}
+h1{width:64px;height: 70px;padding:20px;}
+.main h2{font-family: 'Heebo', sans-serif;font-weight: 800;font-size:150px;color:#fff;margin:0 auto;width:615px;height:310px;margin-top:11%;}
+.main p{color:#fff;width:310px;margin:0 auto;}
+
+h3{font-size:100px;font-family: 'Heebo', sans-serif;font-weight: 800;color:#fff;}
+p{color:#fff;}
+
+
+.one{position: relative;background-size: cover;background-position: 0% 90%; background-repeat: no-repeat;}
+.one > .img{background-image:url(../images/perfume1.png);background-repeat:no-repeat;width: 710px;height: 846px;position: absolute;right:53px;top:130px;}
+.one > .wrap{padding:15% 0 0 10%;}
+.one > .wrap > p:nth-of-type(1){font-size:14px;margin-bottom:45px}
+.one > .wrap > h3{margin-bottom: 45px}
+.one > .wrap > p:nth-of-type(2){margin-bottom:30px;line-height:1.2}
+.more{width:444px;height: 61px;border:1px solid #fff;line-height:61px;color:#fff; }
+.more > a{padding-left:37%;color:#fff;font-size:18px}
+
+.two{position: relative;}
+.two > .img{background-image:url(../images/perfume2.png);background-repeat:no-repeat;width: 710px;height: 846px;position: absolute;left:53px;top:110px;}
+.two > .wrap{position: absolute;right:250px;top:35%;}
+.two > .wrap > p:nth-of-type(1){font-size:14px;margin-bottom:45px;color:#aa9784}
+.two > .wrap > h3{margin-bottom: 45px;color:#aa9784}
+.two > .wrap > p:nth-of-type(2){margin-bottom:30px;color:#aa9784;line-height: 1.2}
+.two > .wrap > .more{border-color:#aa9784}
+.two > .wrap > .more > a{color:#aa9784}
+
+.three{position: relative;background-size: cover;background-position: 100% 90%; background-repeat: no-repeat;}
+.three > .img{background-image:url(../images/perfume4.png);background-repeat:no-repeat;width: 710px;height: 846px;position: absolute;right:53px;top:130px;}
+.three > .wrap{padding:15% 0 0 10%;}
+.three > .wrap > p:nth-of-type(1){font-size:14px;margin-bottom:45px}
+.three > .wrap > h3{margin-bottom: 45px}
+.three > .wrap > p:nth-of-type(2){margin-bottom:30px;line-height: 1.2}
+
+
+.footer{width:100%;font-size:14px;text-align:right;background-size: cover;}
+.footer p{padding:95px 50px 0 0 ;}
+.footer a{display:inline-block;width:200px;height: 61px;border:1px solid #fff;line-height:61px;color:#fff;padding-right:50px;margin:20px 50px 0 0;}

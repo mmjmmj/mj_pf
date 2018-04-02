@@ -1,0 +1,141 @@
+@charset "utf-8";
+
+.content{width:100%;height:100%;}
+h2{border-bottom:1px solid #7F7F80;font-size:20px;margin:0 auto;margin-bottom:100px}
+.bg{background-image:url(../images/bg.jpg);width:1430px;height: 765px;margin:0 auto;}
+
+.box1, .box2, .box3{width:1430px;height:100%;margin:0 auto;padding:100px 0;}
+
+.bb1{width: 100%;height: 1432px;background-color: #fdf1dd;margin-top:150px;}
+.box1 > h2:first-child{width:129px;}
+
+.box1 li{width: 300px;height: 500px;border:1px solid #7F7F80;float:left;margin:0 73px 60px 0;background-color:#fff;}
+.box1 li a{display:block;width:300px;height:500px}
+.box1 li img{width:250px;height: 281px;margin:30px 0 15px 25px}
+.box1 li p{margin-left: 30px;border-bottom:1px solid #7F7F80;width:250px;line-height:25px;padding-bottom:20px}
+.box1 li p:last-child{border-bottom:none;margin-top:20px;}
+.list li:nth-child(4),.list li:nth-child(8){margin-right:0}
+
+.bb2{width: 100%;height: 987px;background-color: #f8e9e9;}
+.box2 > h2{width:76px;}
+.made{height:702px;border:1px solid #7F7F80;background-color: #fff}
+.made > article{width:735px;height:482px;background-image:url(../images/made.png);margin:110px 100px 0 55px;float:left;}
+.made h3{margin:110px 0 5px 0;font-weight: bold;}
+.made h3,.made span{font-size:16px}
+.made p:nth-of-type(1){margin-bottom:50px}
+.made p{margin-bottom:5px;font-size:14px;line-height:1.6}
+.made p:last-child{margin-top:130px;color:#68609a;}
+
+.box3{height:430px;position: relative;}
+.box3 > h2{width:102px}
+.box3 > article{width:33.3%;position:absolute;left:0}
+.box3 > ul{width:33.3%;position: absolute;left: 28%}
+.box3 > ul li{height:55px;line-height:55px;border-bottom:1px solid #7F7F80}
+.box3 > ul li span{position: absolute;right: 0;text-align: right;}
+
+.customer{width:33.3%;right:0px;position: absolute;}
+.customer > a{display:inline-block;width:100%;height:55px;line-height:55px;border-bottom:1px solid #7F7F80}
+.call > p > i{margin:0 20px;font-size:21px}
+.customer .call{width:100%;height:67px;background-color: #7c7c7c;border-radius:10px;margin:35px 0;}
+.call > p{color:#fff;font-size: 19px;padding-top:25px}
+.customer > p:last-child{line-height:1.6;margin-left:15px}
+
+.popUp{width:350px;height:380px;background-color:#f9e8f1;position: absolute;top:20%;right:30%;text-align:right;}
+.btn{padding-right:10px;cursor:pointer;font-weight:bold;}
+
+
+/* 1280px ~ 961px */
+@media screen and (min-width:415px) and (max-width:1024px) {
+	header{width: 100%;height: 125px;position: relative;}
+	header h1{margin:0;position: absolute;top:40%;left:2%;width:143px;height: 35px;background-size:cover}
+	header .lnb{position: absolute;top:7%;right:1%}
+	header .lnb li{font-size:10px}
+	header .lnb li i{font-size:12px;}
+	header .gnb{position: absolute;top:45%;left:35%;font-size:12px;width:350px}
+	header .gnb li{margin-right:50px}
+
+	.bg{width:100%;height: 450px;background-repeat: no-repeat;background-size: cover;margin-top:30px;}
+
+	.bb1{height:2500px}
+	.box1{width: 100%;}
+	.box1 ul{width:677px;margin:0 auto;height:2200px}
+	.list li:nth-child(2),.list li:nth-child(6){margin-right:0}
+
+	.bb2{height: 1100px}
+	.box2{width:100%;}
+	.box2 h2{margin-bottom:90px}
+	.made{width:700px;margin:0 auto;height: 800px}
+	.made > article{margin:30px 80px 0 30px;float: none;width:640px;height:400px;background-size: cover}
+	.made > h3{width:150px;margin:40px 0 20px 30px;font-weight: bold;}
+	.made > p{margin-left:30px}
+	.made > p:nth-of-type(1){margin:0px 0 20px 30px;padding-top:20px;border-top:1px solid #7F7F80;width:640px}
+	.made > p:last-child{margin-top:40px;}
+
+	.box3{width: 100%;height:400px;position: relative;}
+	.box3 article{display:none}
+	.box3 ul{position: absolute;left:10%}
+	.box3 .customer{position: absolute;right: 10%}
+	.customer > .call > p{font-size:13px}
+	.call > p > i{margin:0 15px;}
+
+
+	footer{width:100%;height:200px;position:relative;}
+	.foot{width:100%;height:200px}
+	footer article{position: absolute;left:5%;top:35%;width:143px;height: 35px;background-size:cover}
+	footer p{position: absolute;right:3%;top:25%;font-size:12px}
+	footer .pp{position: absolute;left:25%;}
+}
+
+
+@media screen and (max-width:414px) {
+	body, a {font-size:12px}
+	header{width:100%;height: 95px}
+	header h1{width:110px;height:27px;background-size:cover;margin:25px auto}
+	header h1 >a {width:110px;height:26px;}
+	header 
+	.gnb{width:300px;margin:35px auto;}
+	.gnb li{margin-right:50px;}
+	.lnb{top:2%;right: 2%}
+	.lnb li:nth-child(1), .lnb li:nth-child(2){display:none}
+	.lnb li i{font-size:12px;}
+
+	.bg{width:100%;height:250px;background-size: cover;margin-top:30px;}
+	.bb1{width:100%;height:1250px;margin-top:80px;}
+	.box1{width:100%;padding-top:40px;}
+	h2{font-size:14px;}
+	.box1 > h2:first-child{width:90px;margin-bottom:40px}
+	.list{width:350px;margin:auto;}
+	.box1 > .list li{width:150px;height:250px;margin:10px 10px;}
+	.box1 > .list li a img{margin:10px;width:130px;height: 145px}
+	.box1 li p{margin-left: 10px;border-top:1px solid #7F7F80;width:130px;line-height:25px;padding:10px 0;border-bottom:none}
+	.box1 li p:last-child{display:none}
+
+	.bb2{height:750px}
+	.box2{width:100%;padding-top:40px;}
+	.box2 >h2{width:55px;margin-bottom:40px}
+	.made{width:350px;height: 600px;margin:0 auto;}
+	.made > article{margin:20px;width: 310px;background-size: cover;height:220px}
+	.made > h3, .made > p{margin-left: 20px}
+	.made > p:nth-of-type(2){width:310px;font-size:12px}
+	.made > p:nth-of-type(3){margin-top:60px;}
+
+	.box3{width: 100%;height:900px;position: relative;padding:50px 0;}
+	.box3 > h2{margin-bottom:40px;width:75px}
+	.box3 article{margin:0 auto;width:323px;position: relative;}
+	
+	.box3 > ul{width:340px;margin:40px auto;position:relative;left:0}
+	.box3 > ul li{line-height:30px;padding:5px 0;height: 30px}
+	.box3 > ul li:first-child{font-weight: bold;}
+	
+	.customer{width:340px;margin:20px auto;position: relative;}
+	.customer > a:first-child{font-weight: bold;}
+	.customer > .call > p{font-size:15px}
+	.call > p > i{margin:0 15px;}
+
+	footer{width:100%;height:310px;position:relative;}
+	.foot{width:100%;height:200px}
+	footer article{position: absolute;left:5%;top:35%;width:110px;height:27px;background-size:cover}
+	footer p{position: absolute;right:3%;top:80%;font-size:12px}
+	footer .pp{position: absolute;right:0%;top:0;}
+
+}

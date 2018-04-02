@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">	
+<meta charset="utf-8">
+<title>index</title>
+<link rel="stylesheet" href="../common/reset.css">
+<link rel="stylesheet" href="css/index3.css">
+<script src="../common/prefixfree.min.js"></script>
+<script src="../common/jquery-3.2.1.min.js"></script>
+</head>
+<body>
+	<div class="wrapper">
+		<section class="main" data-color="#ED8686">
+			<h1><a href="index3.html"><img src="images/logo.png" alt="logo"></a></h1>
+			<h2>CHANEL<br>CHANCE</h2>
+			<p>당신의 CHANCE를 놓치지 마세요.</p>
+		</section>
+		<section class="one" id="particles-js" data-color="#fff">
+			<div class="wrap">
+				<p>01&nbsp;CHANEL</p>
+				<h3>CHANCE<br>EAU VIVE</h3>
+				<p>신선하고 달콤한 자몽과 블러드 오렌지 노트가<br> 
+					활기찬 에너지를 전하는 플로랄-제스티 향수.</p>
+					<div class="more"><a href="#">자세히보기</a></div>
+			</div>
+				<div class="img"></div>
+		</section>
+		<section class="two" data-color="#96B070">
+			<div class="wrap">
+				<p>02&nbsp;CHANEL</p>
+				<h3>CHANCE</h3>
+				<p>핑크 페퍼와 자스민, 앰버 파출리가 어우러진<br>
+					여성스러운 플로랄 향수.</p>
+					<div class="more"><a href="#">자세히보기</a></div>
+			</div>	
+				<div class="img"></div>
+		</section>
+		<section class="three" data-color="#96B070">
+			<div class="wrap">
+				<p>03&nbsp;CHANEL</p>
+				<h3>CHANCE<br>EAU FRAICHE</h3>
+				<p>시트론과 자스민, 티크 우드 노트가 어우러져<br>
+					생동감 넘치는 스파클링 플로랄 향수.</p>
+					<div class="more"><a href="#">자세히보기</a></div>
+			</div>	
+				<div class="img"></div>
+		</section>
+		<section class="footer" data-vide-bg="video/chanel" data-vide-options="loop: true, muted: true, position: 0% 0%">
+			<p>2018 © CHOI MIN JEONG PORTPOLIO</p>
+			<a href="../html/portpolio.html">포트폴리오로 돌아가기</a>
+		</section>
+	</div>	
+
+
+    <script>
+
+        $(document).ready(function(){
+            $("#wrapper").smoothWheel()
+        });
+
+        $(window).on("scroll touchmove", function() {
+		
+		if ($(document).scrollTop() > $(".main").position().top) {
+		
+		  $('body').css('background', $(".main").attr("data-color"));
+		
+		};
+		
+		if ($(document).scrollTop() > $(".one").position().top) {
+		
+		  $('body').css('background', $(".one").attr("data-color"));
+		
+		};
+		
+		
+		
+		if ($(document).scrollTop() > $(".two").position().top) {
+		
+		  $('body').css('background', $(".two").attr("data-color"))
+		
+		};
+		
+		
+		
+		if ($(document).scrollTop() > $(".three").position().top) {
+		
+		  $('body').css('background', $(".three").attr("data-color"))
+		
+		};
+});
+
+         var scroll = new Scrollux({
+                overflowY : "hidden",
+                overflowX : "hidden",
+                ringListColor : "#FFF",
+                ringListSize : "9px", 
+                ringActualSessionColor : "#FFF",
+                ringHoverColor : "#FFF",
+                setTimeAnimation : 1000 
+            });
+
+    </script>
+
+<script src="js/particles.min.js"></script>
+<script src="js/app.js"></script> 
+
+<script src="js/scrollux.js"></script>
+<script src="js/main.js"></script>
+
+<script src="js/jquery.vide.min.js"></script>
+
+<script src="js/index.js"></script>
+</body>
+</html>	
