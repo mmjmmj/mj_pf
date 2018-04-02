@@ -1,0 +1,36 @@
+@charset "utf-8";
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+.wrap{width:54.4%;height:100%;margin:0 auto;position: relative;}
+h1{position:fixed;left: 50px;top:50px;}
+.intro{width: 900px;height:600px;position:relative;margin:50px 0 120px 0}
+.intro article{position:absolute;height:0;overflow:hidden;cursor:pointer;}
+.intro article:nth-child(1){top:180px;left:340px;}
+.intro article:nth-child(2){top:150px;left:150px;}
+.intro article:nth-child(3){top:250px;left:90px;}
+.intro article:nth-child(4){top:350px;left:180px;}
+.intro article:nth-child(5){top:410px;left:95px;}
+.intro article:nth-child(6){top:182px;right:70px;}
+.intro article:nth-child(7){top:280px;right:10px;}
+.intro article:nth-child(8){top:380px;right:100px;}
+.intro p{font-family: 'Noto Sans KR';font-size:13px;position: absolute;top:480px;right:120px}
+.intro span{color:#ee3a23;font-weight: bold;font-size:14px;}
+#chartdiv{width: 1031px;height: 124px;background-image:url(../images/chart.jpg);background-repeat: no-repeat;background-position:50% 100%;position:relative;margin-bottom:30px}
+#chartdiv ul{float: left;}
+#chartdiv ul li{padding-top:1px;height: 0}
+.pt{position: absolute;left:20%}
+.ai{position: absolute;left: 36%;bottom:45%}
+.html{position: absolute;left:52%}
+.css{position:absolute;right: 29%}
+.java{position: absolute;right: 12%;bottom:45%}
+
+
+
+.sidebar{height: 100%;position: absolute;top: 0;right: 0}
+.trg, .close{width:50px;height: 50px;cursor: pointer;background-size: cover;background-repeat: no-repeat;}
+.trg{top: 30px;right: 45px;position: fixed;background-image:url(../images/bar.png);}
+.close{top: 30px;left:25px;position:absolute;background-image:url(../images/close.png);}
+.menu{width:250px;height: 100%;background-color:#efac25;right: -250px;overflow: hidden;z-index:999;position:fixed;}
+.gnb{font-weight:600;font-size: 35px;line-height:85px;text-align:right;margin-top:160px;margin-right:30px}
+.gnb a{color:#f4ebda}
+.gnb a:hover{color:#fff}

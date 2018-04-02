@@ -1,0 +1,56 @@
+@charset "utf-8";
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic:400,700');
+
+body{font-family:'Noto Sans KR','Nanum Gothic', sans-serif;}
+.main{width: 100%;height:2000px;background-image:url(../images/bg1.jpg);color:#fff;}
+
+.tit{width:1093px;height:581px;margin:0 auto;padding-top:170px;position: relative;}
+.tit > p{position: absolute;bottom:19%;left:20%;color:#000;font-size:25px}
+
+.story1{width: 926px;height: 370px;margin:180px auto;position: relative;margin-bottom:80px}
+.story1 > table{width: 583px;height: 180px;margin-top:20px;text-align: center;font-size:20px}
+.story1 > table > thead > tr > th{width: 260px;height: 57px;line-height: 57px;text-align: center;background-color: #d7dada;color:#000;}
+.story1 > table > thead > tr > th:first-child{border-right:5px solid #3e2734}
+.story1 > table > thead > tr > th:first-child{margin-right:50px}
+.story1 > .map{position: absolute;right:7%;bottom:7%;}
+.story1 > table > tbody > tr td{border-bottom:1px solid #5e6060}
+
+.story2{width:892px;height: 560px;margin:0 auto;}
+.story2 > h2{width:640px;height: 65px;margin:0 auto;}
+.story2 > ul{height:280px}
+.story2 > ul > li{width: 280px;height: 270px;float: left;margin-right: 10px;background-repeat: no-repeat;text-align: center;padding-top:8%;line-height:1.6}
+.story2 > ul >li:nth-of-type(1){background-image: url(../images/one.png);}
+.story2 > ul >li:nth-of-type(2){background-image: url(../images/two.png);}
+.story2 > ul >li:nth-of-type(3){background-image: url(../images/three.png);}
+.story2 > ul > li > p:first-child{font-size: 25px;border-bottom:1px solid #fff;padding-bottom: 15px;width:220px;margin:0 auto;}
+.story2 > ul > li > p:last-child{font-size: 14px;line-height:1.4;padding-top:10px;font-weight:300}
+
+.story2 > .button{width: 602px;height: 86px;background-color: #251737;border-radius:10px;margin:90px auto;position: relative;cursor:pointer;}
+.button > img{margin:15px;position: absolute;left: 0}
+.button > p:nth-of-type(1){position: absolute;left:15%;top:25%;text-align:center;font-size:16px}
+.button > p:last-child{color:#f1eb5c;text-align:center;font-size: 18px;font-weight:400;position: absolute;bottom:21%;left:35%}
+
+
+.sub{width: 100%;height:1490px;background-image: url(../images/bg2.jpg);overflow: hidden;position: relative;}
+.sub > .box{width: 640px;height: 174px;margin:0 auto;padding-top:85px;cursor: pointer;}
+.sub > .box li{float: left;}
+.sub > .box:hover > li:nth-of-type(1){background-image: url(../images/hotel2p.png);}
+
+.tabMenu{width:975px;height: 1066px;margin:90px auto;}
+.tabMenu > .btn { overflow:hidden; }
+.tabMenu > .btn > li { width:288px; height:69px; float:left; background-color:#b5a3ce; color:#fff; border-radius:20px 20px 0 0; text-align:center; line-height:69px;cursor:pointer;}
+.tabMenu > .btn > li:hover{background-color: #36234e}
+.tabMenu > .btn > .on{background-color: #36234e}
+.tabMenu > .btn > li:first-child{margin-left: 56px}
+.tabMenu > .subMenu {height:987px;overflow:hidden;}
+.tabMenu > .subMenu > li { width:975px; height:957px;;background-color: #fff;text-align: center;}
+.tabMenu > .subMenu > li img:first-child{padding:70px 0 30px 0;text-align: left;}
+.tabMenu > .subMenu > li p{text-align: left;padding:0 0 40px 100px;font-size:14px}
+.tabMenu > .subMenu > li img:last-child{width:788px;margin:0 auto;}
+
+
+#tab1, #tab2, #tab3{position: absolute;bottom:0;left:24.4%}
+
+.pp{position: absolute;right:4%;bottom:2%;text-align:center;}
+.pp > a{color:#000;font-weight:400}

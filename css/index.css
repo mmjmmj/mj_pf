@@ -1,0 +1,46 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Lato:400,900|Noto+Serif');
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+html, body { height:100%; }
+body{font-family: 'Lato', 'Noto Sans KR', sans-serif;}
+
+.main section{height:980px;width: 100%;overflow: hidden;position: relative;text-align:center;}
+.eggs{cursor:pointer;}
+.eggs article{width: 26.3%;height: 700px;margin:130px auto;position: relative;}
+.eggs article p{position: absolute;top:0;left:10px;font-size:85px;text-align: center;margin-left:30px;}
+.eggs article img:nth-child(1){margin-top:100px;max-width:100%}
+.eggs article img:nth-child(2){position: absolute;top:18%;right:7%;}
+
+.twi2 article{width: 44.2%;height: 780px;margin:100px auto;position: relative;}
+.twi2 article p{position: absolute;left: 10%;bottom:45%}
+.twi2 article img:nth-child(1){position: absolute;right: 5%;top:20%;max-width:100%}
+.twi2 article img:nth-child(2){position: absolute;right: 0;top:20%;}
+
+.twi3 article{width: 37.7%;height: 690px;margin:100px auto;position: relative;}
+.twi3 article p{position: absolute;top:95px}
+.twi3 article img:nth-child(2){position: absolute;right: 0;bottom:180px;max-width:100%}
+.twi3 article img:nth-child(3){position: absolute;right:30%;bottom:20%;}
+
+.twi4 article{width:30.6%;height:650px;margin:130px auto;position:relative;}
+.twi4 article p{position:absolute;left: 0;top:5%;}
+.twi4 article img:nth-child(2){position:absolute;top:15%;left: 10%;max-width:100%}
+.twi4 article img:nth-child(3){position:absolute;top:20%;right:0;}
+
+
+.twi5 article{width: 46.2%;height: 680px;margin:150px auto;position: relative;}
+.twi4 article img:nth-child(2){position:absolute;max-width:100%}
+
+.arrow{position: absolute;bottom: 0;left:47%;width: 50px;height: 70px;background-image: url(../images/arrow.png)}
+.main p{font-weight:700;font-size:100px;color:#de1e28;}
+.eggs p{color:#2fa1db;}
+
+.sidebar{height: 100%;position: absolute;top: 0;right: 0}
+.trg, .close{width:50px;height: 50px;cursor: pointer;background-size: cover;background-repeat: no-repeat;}
+.trg{top: 30px;right: 45px;position: fixed;background-image:url(../images/bar.png);}
+.close{top: 30px;left:25px;position:absolute;background-image:url(../images/close.png);}
+.menu{width:250px;height: 100%;background-color:#efac25;right: -250px;overflow: hidden;z-index:999;position:fixed;}
+.gnb{font-weight:600;font-size: 35px;line-height:85px;text-align:right;margin-top:160px;margin-right:30px}
+.gnb a{color:#f4ebda}
+.gnb a:hover{color:#fff}
+
