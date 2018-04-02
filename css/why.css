@@ -1,16 +1,17 @@
 @charset "utf-8";
 @import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
-body{font-family: 'Noto Sans KR', san-serif}
+html, body{height: 100%}
+body{font-family: 'Noto Sans KR', san-serif;}
 
 h1{position:fixed;left: 50px;top:50px;}
 .twi{width: 450px;margin:200px auto;}
 
-.wrap div{width: 525px; height: 450px;background-image:url(../images/box.jpg);background-repeat: no-repeat;
-	text-align: center;position: absolute;}
+.wrap div{width: 525px; height: 300px;background-image:url(../images/box.jpg);background-repeat: no-repeat;
+	text-align: center;position: absolute;border:1px solid #000}
 .wrap div h2{margin-bottom:10px;line-height:85px}
-.wrap div:nth-child(1){top:500px;left:100px}
-.wrap div:nth-child(2){top:650px;right:180px}
-.wrap div:nth-child(3){top:800px;left:490px}
+.wrap div:nth-child(1){top:40%;left:7%}
+.wrap div:nth-child(2){top:35%;left:65%;}
+.wrap div:nth-child(3){bottom:4%;left:45%}
 .wrap div p{line-height:1.6;font-size:14px;width:385px;margin-left:70px}
 
 
